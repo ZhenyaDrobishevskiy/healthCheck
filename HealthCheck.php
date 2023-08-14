@@ -2,14 +2,14 @@
 
 namespace healthCheck;
 
-use healthCheck\interfaces\HealthTest;
+use healthCheck\interfaces\HealthTestInterface;
 
 class HealthCheck
 {
-    /** @var HealthTest[] */
+    /** @var HealthTestInterface[] */
     private array $tests = [];
 
-    public function addTest(HealthTest $test)
+    public function addTest(HealthTestInterface $test)
     {
         $this->tests[] = $test;
     }

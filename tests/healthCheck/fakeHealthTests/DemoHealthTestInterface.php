@@ -3,9 +3,9 @@
 namespace healthCheck\tests\healthCheck\fakeHealthTests;
 
 
-use healthCheck\interfaces\HealthTest;
+use healthCheck\interfaces\HealthTestInterface;
 
-class DemoHealthTest implements HealthTest
+class DemoHealthTestInterface implements HealthTestInterface
 {
     /** @var string|array */
     private $testResponse;

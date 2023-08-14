@@ -2,7 +2,7 @@
 
 namespace healthCheck\interfaces;
 
-interface HealthTest
+interface HealthTestInterface
 {
     /**
      * @return array|string
