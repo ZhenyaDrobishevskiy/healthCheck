@@ -1,6 +1,7 @@
 {
     "name": "zhenyadrob/helthcheck",
     "description": "PDP test project",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Zhenya Drobishevskiy"
